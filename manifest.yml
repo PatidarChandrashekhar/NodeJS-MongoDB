@@ -1,0 +1,10 @@
+application:
+  -memory: 512MB
+  instance: 1
+  buildpack: nodejs_buildpack
+  health-check-type: port
+  env:
+    NODE_ENV: #NODE_ENV#
+    APP_NAME: #APP_NAME#
+    APP_CODE: #APP_CODE#
+    mongoDBConnection: #mongoDBConnection#

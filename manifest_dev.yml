@@ -1,0 +1,10 @@
+application:
+  -memory: 512MB
+  instance: 1
+  buildpack: nodejs_buildpack
+  health-check-type: port
+  env:
+    NODE_ENV: development
+    APP_NAME: MongoDBTest
+    APP_CODE: CSP00
+    mongoDBConnection: test

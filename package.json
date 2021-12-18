@@ -1,0 +1,27 @@
+{
+  "name": "patidarnodejsapp",
+  "version": "1.0.0",
+  "private": true,
+  "description": "Patidar project",
+  "keywords": [],
+  "author": "",
+  "license": "",
+  "main": "mongoDBManager.js",
+  "dependencies": {
+    "aws-sdk": "^2.927.0",
+    "eslint": "^6.7.2",
+    "express": "^4.12.3",
+    "lodash": "^4.17.15",
+    "mongodb": "^4.2.2",
+    "swagger-express-mw": "^0.1.0"
+  },
+  "engines": {
+    "node": "^8.9.1"
+  },
+  "devDependencies": {
+  },
+  "scripts": {
+    "start": "node mongoDBManager.js",
+    "test": "swagger project test"
+  }
+}
