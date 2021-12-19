@@ -6,7 +6,7 @@
   "keywords": [],
   "author": "",
   "license": "",
-  "main": "mongoDBManager.js",
+  "main": "CSPDBManager.js",
   "dependencies": {
     "aws-sdk": "^2.927.0",
     "eslint": "^6.7.2",
@@ -21,7 +21,7 @@
   "devDependencies": {
   },
   "scripts": {
-    "start": "node mongoDBManager.js",
+    "start": "node CSPDBManager.js",
     "test": "swagger project test"
   }
 }
